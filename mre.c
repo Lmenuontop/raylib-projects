@@ -4,6 +4,7 @@
 #include <time.h>
 int main() {
   // TODO: FIX the score shower
+  // im never gonna do this
   srand(time(NULL) ^ clock());
   int bullet_x_pos = 0;
   int bullet_y_pos = -10;
@@ -88,3 +89,5 @@ int main() {
     printf("bye mate...");
     printf("%d \n", score);
   }
+}
+// end of file

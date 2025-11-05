@@ -1,1 +1,1 @@
-zig cc -o clicker.exe clicker.c -I"C:\raylib\include" "C:\raylib\lib\libraylib.a" -lopengl32 -lgdi32 -lwinmm
+gcc main.c -o main.exe -I C:/raylib/include -L C:/raylib/lib -lraylib -lopengl32 -lgdi32 -lwinmm
