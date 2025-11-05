@@ -1,0 +1,10 @@
+CompileFlags:
+  Add:
+    - -IC:/raylib/include
+    - -DPLATFORM_DESKTOP
+    - -std=c17
+    - -IC:/raylib/src
+    - -IC:/Users/Admin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+    - -IC:/Users/Admin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+    - -IC:/Users/Admin/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include
+    - -IC:/Users/Admin/mingw64/include
